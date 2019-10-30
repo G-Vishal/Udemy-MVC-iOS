@@ -12,6 +12,9 @@
 		C993C035236979F500A26AE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C993C033236979F500A26AE1 /* Main.storyboard */; };
 		C993C037236979F600A26AE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C993C036236979F600A26AE1 /* Assets.xcassets */; };
 		C993C03A236979F600A26AE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C993C038236979F600A26AE1 /* LaunchScreen.storyboard */; };
+		C993C0462369857D00A26AE1 /* CustomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C993C0452369857D00A26AE1 /* CustomeView.swift */; };
+		C993C0482369889200A26AE1 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C993C0472369889200A26AE1 /* Movie.swift */; };
+		C993C04A2369899100A26AE1 /* Bahubali.swift in Sources */ = {isa = PBXBuildFile; fileRef = C993C0492369899100A26AE1 /* Bahubali.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		C993C036236979F600A26AE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C993C039236979F600A26AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C993C03B236979F600A26AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C993C0452369857D00A26AE1 /* CustomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeView.swift; sourceTree = "<group>"; };
+		C993C0472369889200A26AE1 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		C993C0492369899100A26AE1 /* Bahubali.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bahubali.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,49 @@
 		C993C02E236979F500A26AE1 /* Udemy MVC iOS */ = {
 			isa = PBXGroup;
 			children = (
+				C993C0412369853600A26AE1 /* Model */,
+				C993C0422369854A00A26AE1 /* View */,
+				C993C0432369855000A26AE1 /* Controller */,
+				C993C0442369855600A26AE1 /* Helper */,
 				C993C02F236979F500A26AE1 /* AppDelegate.swift */,
-				C993C031236979F500A26AE1 /* ViewController.swift */,
 				C993C033236979F500A26AE1 /* Main.storyboard */,
 				C993C036236979F600A26AE1 /* Assets.xcassets */,
 				C993C038236979F600A26AE1 /* LaunchScreen.storyboard */,
 				C993C03B236979F600A26AE1 /* Info.plist */,
 			);
 			path = "Udemy MVC iOS";
+			sourceTree = "<group>";
+		};
+		C993C0412369853600A26AE1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C993C0472369889200A26AE1 /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C993C0422369854A00A26AE1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C993C0452369857D00A26AE1 /* CustomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C993C0432369855000A26AE1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C993C031236979F500A26AE1 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C993C0442369855600A26AE1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C993C0492369899100A26AE1 /* Bahubali.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +177,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C993C032236979F500A26AE1 /* ViewController.swift in Sources */,
+				C993C0462369857D00A26AE1 /* CustomeView.swift in Sources */,
+				C993C04A2369899100A26AE1 /* Bahubali.swift in Sources */,
+				C993C0482369889200A26AE1 /* Movie.swift in Sources */,
 				C993C030236979F500A26AE1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
